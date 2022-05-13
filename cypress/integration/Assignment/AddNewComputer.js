@@ -60,16 +60,6 @@ describe("Add New Computer", function () {
     cy.contains("Create this computer").click();
 
     cy.get(".alert-message").should("be.visible");
-    // cy.get(".alert-message").then(function (el) {
-    //   const text = el.text();
-    //   cy.log(text);
-    //   //   expect(txt).to.contain;
-    //   //   el.text().should("contain", "Test_Computer");
-    //   //el.text().should("eq", "Done ! Computer Test_Computer has been created");
-    //   expect(text).to.have.text(
-    //     "Done ! Computer Test_computer has been created"
-    //   );
-    // });
   });
 
   it("Cancel_Button_Functionality", function () {

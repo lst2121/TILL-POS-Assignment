@@ -32,7 +32,6 @@ describe("Filter Computer", function () {
       const text = res + " computers found";
       cy.log(text);
       expect(str).to.contain(text);
-      //expect(str).to.contain("computers found");
     });
   });
 
